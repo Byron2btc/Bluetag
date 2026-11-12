@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="A summary of your results across four skills."
+    >
+    <title>Results Summary</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main class="results-card" aria-label="Results summary">
+      <section class="results" aria-labelledby="results-heading">
+        <h1 class="results__eyebrow" id="results-heading">Your Result</h1>
+        <div class="results__score" aria-label="76 out of 100">
+          <span class="results__score-value" aria-hidden="true">76</span>
+          <span class="results__score-total" aria-hidden="true">of 100</span>
+        </div>
+        <h2 class="results__rating">Amazing</h2>
+        <p class="results__description">
+          You scored higher than 85% of the people who have taken these tests.
+        </p>
+      </section>
+
+      <section class="summary" aria-labelledby="summary-heading">
+        <h2 class="summary__heading" id="summary-heading">Summary</h2>
+        <ul class="summary__list">
+          <li class="summary__item summary__item--reaction">
+            <span class="summary__category">
+              <span>Reaction</span>
+            </span>
+            <span class="summary__score"><strong>80</strong><span> / 100</span></span>
+          </li>
+          <li class="summary__item summary__item--memory">
+            <span class="summary__category">
+              <span>Memory</span>
+            </span>
+            <span class="summary__score"><strong>92</strong><span> / 100</span></span>
+          </li>
+          <li class="summary__item summary__item--verbal">
+            <span class="summary__category">
+              <span>Verbal</span>
+            </span>
+            <span class="summary__score"><strong>61</strong><span> / 100</span></span>
+          </li>
+          <li class="summary__item summary__item--visual">
+            <span class="summary__category">
+              <span>Visual</span>
+            </span>
+            <span class="summary__score"><strong>72</strong><span> / 100</span></span>
+          </li>
+        </ul>
+        <button class="summary__continue" type="button">Continue</button>
+      </section>
+    </main>
+  </body>
+</html>
